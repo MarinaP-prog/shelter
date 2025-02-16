@@ -11,7 +11,7 @@ function DogList({data, onDelete}) {
         <span>
             {dog.name} / {dog.breed} / {dog.age}
             </span>
-        <button className='btn-delete' onClick={() => onDelete(dog.id)}>X</button>
+        <button className='btn-delete' onClick={() => onDelete(dog.id)}>XX</button>
         </div>
     )
     })}
